@@ -8,8 +8,9 @@ Persiapan:
 4. Akses Terminal > New terminal. Didalam terminal pilih Git Bash.
 
 5. Pertama-tama input username dan email:
-git config user.name "Username github"
-git config user.email "email@example.com"
+git config --global user.name "username github"
+git config --global user.email "nama@example.com"
+
 
 untuk mengeceknya gunakan perintah:
 git config user.email
