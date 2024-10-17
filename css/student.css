@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+ }
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+  /* Navbar*/
+.navbar-nav{
+    float:right;
+}
+.d {
+      float: left;
+      overflow: hidden;
+}
+.d .dropdown-btn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: #fff;
+      background: inherit;
+}
+.navbar a:hover, .d:hover .dropdown-btn {
+      background: #ffda7b;
+}
+.dropdown-content {
+      display: none;
+      position: absolute;
+      background: #f9f9f9;
+      width: 100%;
+      left: 0;
+      z-index: 10;
+}
+.d:hover .dropdown-content {
+      display: block;
+}
+.column {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+      background: #ffeec2;
+      height: 250px;
+}
+  
+.column .ilustrasi {
+    width: 50%;
+}
+  
+.column a {
+    text-decoration: none;
+      display: block;
+      float: none;
+      color: #000000;
+      text-align: left;
+}
+.column h3 {
+      color: #000000;
+      padding: 10px;
+}
+  
+.column h6 {
+      color: #000000;
+      padding: 10px;
+}
+  
+.column p {
+      color: #000000;
+      padding: 10px;
+    font-size: 15px;
+}
+  
+.row:after {
+      content: '';
+      display: table;
+      clear: both;
+}
+@media(max-width: 650px){
+      .column {
+          width: 100%;
+          height: auto;
+  }
+}
+.side {
+    -ms-flex: 40%; /* IE10 */
+    flex: 40%;
+    background-color: #fff2E1;
+    padding: 70px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.main {   
+    -ms-flex: 60%; /* IE10 */
+    flex: 60%;
+    float: right;
+    background-color:#fff2E1;
+}
+.button {
+  border:none;
+  color:white;
+  background-color: #F48C06;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* Footer */
+footer {
+  background-color: #1b1b3a;
+  padding: 40px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo img {
+  width: 140px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.footer-logo .logo-text h1 {
+  font-size: 24px;
+  margin: 0;
+  color: #ffffff;
+}
+
+.footer-logo .logo-text p {
+  margin-top: 5px;
+  color: #b8b8d1;
+}
+
+.newsletter {
+  margin: 20px 0;
+}
+
+.newsletter p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter input {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  width: 300px;
+  font-size: 16px;
+  outline: none;
+}
+
+.newsletter button {
+  padding: 10px 30px;
+  margin-left: 10px;
+  background-color: #4c52ff;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+  background-color: #6a72ff;
+}
+
+.footer-links {
+  margin: 20px 0;
+  color: #b8b8d1;
+}
+
+.footer-links a {
+  color: #b8b8d1;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #8a8ab3;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
