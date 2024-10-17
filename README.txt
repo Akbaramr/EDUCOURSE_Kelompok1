@@ -1,3 +1,5 @@
+Kelompok 1 EduCourse eduteach
+
 Persiapan:
 1. Buat folder direktori pada komputer, nama direktori komputer dan repositori github harus sama.
 
