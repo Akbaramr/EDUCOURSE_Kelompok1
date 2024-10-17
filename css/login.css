@@ -1,3 +1,13 @@
+/* Style input box default */
+  .login-form-container {
+      transition: transform 0.3s, box-shadow 0.3s; /* Transisi untuk efek */
+  }
+      
+      /* Style ketika input aktif/fokus */
+  .input-active {
+    box-shadow: 0 0 10px #F48C06; /* Efek bayangan biru */
+  }
+  
 * {
     box-sizing: border-box;
  }
@@ -253,3 +263,5 @@ footer {
     width: 100%;
   }
 }
+
+
