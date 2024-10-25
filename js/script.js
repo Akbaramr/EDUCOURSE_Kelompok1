@@ -47,8 +47,6 @@ const observer = new IntersectionObserver((entries)=>{
         console.log(entry)
         if (entry.isIntersecting) {
             $(entry.target).addClass('show')
-        } else {
-            $(entry.target).removeClass('show')
         }
     });
 })
