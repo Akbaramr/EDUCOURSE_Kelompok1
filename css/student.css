@@ -11,75 +11,88 @@ body {
     float:right;
 }
 .d {
-      float: left;
-      overflow: hidden;
+  float: left;
+  overflow: hidden;
 }
 .d .dropdown-btn {
-      font-size: 16px;
-      border: none;
-      outline: none;
-      color: #fff;
-      background: inherit;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: inherit;
 }
 .navbar a:hover, .d:hover .dropdown-btn {
-      background: #ffda7b;
+  background: #ffda7b;
 }
 .dropdown-content {
-      display: none;
-      position: absolute;
-      background: #f9f9f9;
-      width: 100%;
-      left: 0;
-      z-index: 10;
+  display: none;
+  position: absolute;
+  background: #f9f9f9;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 .d:hover .dropdown-content {
-      display: block;
+  display: block;
 }
 .column {
-      float: left;
-      width: 33.33%;
-      padding: 10px;
-      background: #ffeec2;
-      height: 250px;
+  float: left;
+  width: 31.7%;
+  padding: 20px;
+  height: auto;
+  text-align: center;
+  margin: 10px;
+  position: relative;
+  transition: transform 0.3s ease;
+background-color: #FFF3E4;
 }
-  
+.column:hover {
+  transform: scale(1.05);
+}
 .column .ilustrasi {
-    width: 50%;
+  width: 65%;
+position: absolute;
+  left: 50%; 
+  transform: translateX(-50%); 
+  margin-top: 8px;
 }
-  
 .column a {
-    text-decoration: none;
-      display: block;
-      float: none;
-      color: #000000;
-      text-align: left;
+  text-decoration: none;
+  display: block;
+  color: #000000;
+  text-align: center;
 }
 .column h3 {
-      color: #000000;
-      padding: 10px;
+  color: #000000;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
-  
-.column h6 {
-      color: #000000;
-      padding: 10px;
+.column h3:hover + .hover-content {
+display: block;
 }
-  
-.column p {
-      color: #000000;
-      padding: 10px;
-    font-size: 15px;
+.column h6 .column p {
+  color: #000000;
+  font-size: 15px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  background-color: #ffeec2;
+  cursor: pointer;
 }
-  
 .row:after {
-      content: '';
-      display: table;
-      clear: both;
+content: '';
+display: table;
+clear: both;
 }
 @media(max-width: 650px){
-      .column {
-          width: 100%;
-          height: auto;
-  }
+.column {
+  width: 100%;
+  height: auto;
+}
 }
 .button {
   border:none;
