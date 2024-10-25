@@ -362,3 +362,58 @@ transition: opacity 0.5s ease, transform 0.5s ease; /* Animasi transisi */
   opacity: 1; 
   transform: translateY(0);
 }
+
+/* jumbotron */
+.jumbotron_page {
+  position: relative;
+  background-image: url(../img/laptops-593296_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 640px;
+}
+
+.jumbotron_page .jumbotron {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.jumbotron_page .jumbotron h2 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 800;
+  text-shadow: 2px 5px 5px #0034a5;
+}
+
+#btn_jumbotron {
+  width: 100px;
+  height: 50px;
+  padding: 10px 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.jumbotron_page .jumbotron .btn_one {
+  padding: 8px 14px;
+  border-radius: 5px;
+  background: #fff;
+  color: #333;
+  margin-right: 10px;
+  border: 2px solid #f09000;
+  color: #f09000;
+}
+
+.jumbotron_page .jumbotron .btn_two {
+  padding: 8px 14px;
+  border-radius: 5px;
+  background: #f09000;
+  color: #ffffff;
+  margin-right: 10px;
+  border: #fff;
+}
