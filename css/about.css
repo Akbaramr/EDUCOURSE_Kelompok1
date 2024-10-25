@@ -1,3 +1,45 @@
+  /*FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 42px;
+}
+
+.poppins-textcard {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.poppins-textvisimisi {
+  font-family: "Poppins", sans-serif;
+  font-weight: medium;
+  font-style: normal;
+  font-size: 26px;
+  color: #2F327D;
+}
+
+.poppins-textlaunch {
+  font-family: "Poppins", sans-serif;
+  font-weight: medium;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.carousel-item img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    max-height:350px;
+    object-fit: cover;
+}
+
+
 * {
   box-sizing: border-box;
 }
@@ -105,6 +147,12 @@ display: inline-block;
 font-size: 16px;
 margin: 4px 2px;
 cursor: pointer;
+}
+.bg-body-tertiary {
+  background-color: white !important; 
+}
+.poppins-text {
+  background-color: white; 
 }
 /* Footer */
 footer {
@@ -221,6 +269,8 @@ color: #8a8ab3;
 .container {
   padding: 10px 70px ;
   transition: transform 0.2s;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .container:hover {
 transform: scale(1.02);
@@ -228,11 +278,15 @@ transform: scale(1.02);
 
 .card {
 display:inline-flex !important;
+margin: 10px; 
+padding: 15px; 
+background-color: #fff; 
+border-radius: 8px; 
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-box-shadow: 0 px 16px 0 rgba(0,0,0,0.2);
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .visi{
