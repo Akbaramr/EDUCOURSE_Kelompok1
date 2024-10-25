@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-textcard {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+}
+
 /* Style input box default */
   .login-form-container {
       transition: transform 0.3s, box-shadow 0.3s; /* Transisi untuk efek */
@@ -24,78 +33,52 @@ body {
   float: left;
   overflow: hidden;
 }
-.d .dropdown-btn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: #fff;
-  background: inherit;
-}
-.navbar a:hover, .d:hover .dropdown-btn {
+.navbar a:hover, .d:hover {
   background: #ffda7b;
 }
 .dropdown-content {
   display: none;
   position: absolute;
-  background: #f9f9f9;
-  width: 100%;
-  left: 0;
-  z-index: 1;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 115%;
+  left: -15px;
+  right: 10px;
+  padding: 26px;
 }
 .d:hover .dropdown-content {
   display: block;
 }
 .column {
-  float: left;
-  width: 31.7%;
-  padding: 20px;
-  height: auto;
-  text-align: center;
-  margin: 10px;
-  position: relative;
+  width: 30%;
   transition: transform 0.3s ease;
-background-color: #FFF3E4;
+  background-color:#FFF3E4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.column:hover {
-  transform: scale(1.05);
-}
+
 .column .ilustrasi {
-  width: 65%;
-position: absolute;
-  left: 50%; 
-  transform: translateX(-50%); 
-  margin-top: 8px;
+  width: 50%;
+  transform: translateX(-14%);
+  margin-bottom: -17px;
 }
 .column a {
   text-decoration: none;
-  display: block;
   color: #000000;
-  text-align: center;
+  font-weight: bold;
+  display: block;
+  margin-left: -100px; 
+  margin-right: 150px;
+  margin-top: 40px;
 }
 .column h3 {
-  color: #000000;
-  padding: 10px;
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 20px;
   cursor: pointer;
 }
-.column h3:hover + .hover-content {
-display: block;
-}
-.column h6 .column p {
+.column h6 {
   color: #000000;
   font-size: 15px;
-  margin: 10px 0;
-  padding: 10px;
-  border: 2px solid #000000;
-  border-radius: 8px;
-  background-color: #ffeec2;
   cursor: pointer;
 }
 .row:after {
 content: '';
-display: table;
 clear: both;
 }
 @media(max-width: 650px){
