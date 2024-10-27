@@ -36,6 +36,8 @@ box-shadow: 0 0 10px #F48C06; /* Efek bayangan biru */
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    background-image: url(../img/latar-sing_up-login.png);
+    background-size: cover;
 }
   /* Navbar*/
 .navbar-nav{
