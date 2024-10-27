@@ -80,28 +80,48 @@
 <div class="container">
   <aside class="aside">
       <h2>Pilih Mata Pelajaran</h2>
-      <ul>
-          <li>Ilmu Pengetahuan</li>
-          <li>Menu Item 2</li>
-          <li>Menu Item 3</li>
-      </ul>
+      <label class="filter-item"onclick="filterContent('All')">
+        <input type="radio" name="filter" value="official-store">
+        <span>All</span>
+      </label>
+    
+      <label class="filter-item"onclick="filterContent('Kimia')">
+        <input type="radio" name="filter" value="power-merchant-pro">
+        <span> Kimia</span>
+      </label>
+    
+      <label class="filter-item"onclick="filterContent('Biologi')">
+        <input type="radio" name="filter" value="power-merchant">
+        <span>Biologi</span>
+      </label>
+
+      <label class="filter-item"onclick="filterContent('Fisika')">
+        <input type="radio" name="filter" value="power-merchant">
+        <span>Fisika</span>
+      </label>
+      <!-- <ul>
+          <button onclick="filterContent('All')">Semua</button>
+          <button onclick="filterContent('Ilmu Pengetahuan')">Ilmu Pengetahuan</button>
+          <button onclick="filterContent('Biologi')">Biologi</button>
+          <button onclick="filterContent('Fisika')">Fisika</button>
+      </ul> -->
   </aside>
   <div class="main-content">
-    <div class="card mb-3" style="max-width: 1080px;">
+    <div class="card mb-3" style="max-width: 1080px;"data-category="Kimia">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="img/teacher1.jpg" class="img-fluid rounded" alt="...">
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h5 class="card-title">Sarifudin</h5>
+            <p class="card-text">Saya Adalah Guru IPA.</p>
             <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
           </div>
         </div>
       </div>
     </div>
-    <div class="card mb-3" style="max-width: 1080px;">
+    <div class="card mb-3" style="max-width: 1080px;"data-category="Biologi">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="img/teacher2.jpeg" class="img-fluid rounded" alt="...">
@@ -115,7 +135,7 @@
         </div>
       </div>
     </div>
-    <div class="card mb-3" style="max-width: 1080px;">
+    <div class="card mb-3" style="max-width: 1080px;"data-category="Fisika">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="img/teacher3.jpg" class="img-fluid rounded" alt="...">
