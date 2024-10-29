@@ -99,87 +99,94 @@
         <input type="radio" name="filter" value="power-merchant">
         <span>Fisika</span>
       </label>
-      <!-- <ul>
-          <button onclick="filterContent('All')">Semua</button>
-          <button onclick="filterContent('Ilmu Pengetahuan')">Ilmu Pengetahuan</button>
-          <button onclick="filterContent('Biologi')">Biologi</button>
-          <button onclick="filterContent('Fisika')">Fisika</button>
-      </ul> -->
+
+      <label class="filter-item"onclick="filterContent('Matematika')">
+        <input type="radio" name="filter" value="power-merchant">
+        <span>Matematika</span>
+      </label>
   </aside>
-  <div class="main-content">
-    <div class="card mb-3" style="max-width: 1080px;"data-category="Kimia">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="img/teacher1.jpg" class="img-fluid rounded" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Sarifudin</h5>
-            <p class="card-text">Saya Adalah Guru IPA.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card mb-3" style="max-width: 1080px;"data-category="Biologi">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="img/teacher2.jpeg" class="img-fluid rounded" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card mb-3" style="max-width: 1080px;"data-category="Fisika">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="img/teacher3.jpg" class="img-fluid rounded" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card mb-3" style="max-width: 1080px;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="img/teacher4.jpg" class="img-fluid rounded" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card mb-3" style="max-width: 1080px;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="img/teacher5.jpg" class="img-fluid rounded" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="main-content" style="max-height: 600px; overflow-y: auto;">
+    <div id="teacher-list" ></div>
   </div>
 </div>
+<br>
+<h1 style="padding: 3%; text-align: center;">Student Success Stories</h1>
+<div id="studentStoriesCarousel" class="carousel slide" data-bs-ride="carousel">
+  <!-- Carousel Inner -->
+  <div class="carousel-inner">
+    <!-- Slide Pertama -->
+    <div class="carousel-item active">
+      <div class="d-flex justify-content-center">
+        <div class="card mx-2" style="width: 18rem;">
+          <img src="img/student1.jpg" class="card-img-top" alt="Student 1">
+          <div class="card-body text-center">
+            <h5 class="card-title">Dinda, SMA 1 Jakarta</h5>
+            <p class="card-text">"Kursus ini sangat membantu saya dalam memahami konsep-konsep sulit di Fisika Olimpiade!"</p>
+            <span class="badge bg-success">Rating 4.5/5</span>
+          </div>
+        </div>
 
+        <div class="card mx-2" style="width: 18rem;">
+          <img src="img/student3.jpg" class="card-img-top" alt="Student 3">
+          <div class="card-body text-center">
+            <h5 class="card-title">Rizky, SMA 2 Bandung</h5>
+            <p class="card-text">"Saya berhasil lolos ke Olimpiade Nasional berkat bimbingan yang saya dapatkan di kursus ini."</p>
+            <span class="badge bg-success">Rating 5/5</span>
+          </div>
+        </div>
+
+        <div class="card mx-2" style="width: 18rem;">
+          <img src="img/student2.jpg" class="card-img-top" alt="Student 2">
+          <div class="card-body text-center">
+            <h5 class="card-title">Sarah, SMA 5 Surabaya</h5>
+            <p class="card-text">"Materi dan latihan yang diberikan sangat sesuai dengan kompetisi di tingkat nasional."</p>
+            <span class="badge bg-success">Rating 4.7/5</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide Kedua -->
+    <div class="carousel-item">
+      <div class="d-flex justify-content-center">
+        <div class="card mx-2" style="width: 18rem;">
+          <img src="img/student4.jpg" class="card-img-top" alt="Student 4">
+          <div class="card-body text-center">
+            <h5 class="card-title">Sarah, SMA 2 Surabaya</h5>
+            <p class="card-text">"Kursus ini sangat membantu saya dalam memahami konsep-konsep sulit di Fisika Olimpiade!"</p>
+            <span class="badge bg-success">Rating 4.5/5</span>
+          </div>
+        </div>
+
+        <div class="card mx-2" style="width: 18rem;">
+          <img src="img/student5.jpg" class="card-img-top" alt="Student 5">
+          <div class="card-body text-center">
+            <h5 class="card-title">Diva, SMA 1 Surakarta</h5>
+            <p class="card-text">"Saya berhasil lolos ke Olimpiade Nasional berkat bimbingan yang saya dapatkan di kursus ini."</p>
+            <span class="badge bg-success">Rating 5/5</span>
+          </div>
+        </div>
+
+        <div class="card mx-2" style="width: 18rem;">
+          <img src="img/student6.jpg" class="card-img-top" alt="Student 6">
+          <div class="card-body text-center">
+            <h5 class="card-title">Cintya, SMA 2 Surabaya</h5>
+            <p class="card-text">"Saya berhasil lolos ke Olimpiade Nasional berkat bimbingan yang saya dapatkan di kursus ini."</p>
+            <span class="badge bg-success">Rating 5/5</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#studentStoriesCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#studentStoriesCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
 <footer>
   <div class="footer-container">
     <div class="footer-logo">
