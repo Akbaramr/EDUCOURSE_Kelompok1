@@ -220,6 +220,10 @@ footer {
   margin-top: 5em;
 }
 
+.buttons {
+  padding-left: 20px;
+}
+
 .button-value {
   border: 2px solid #6a72ff;
   padding: 1em 2.2em;
@@ -237,13 +241,14 @@ footer {
 #products {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-column-gap: 1.5em;
+  grid-column-gap: 20px;
   padding: 2em 0;
+  margin-left: 20px;
 }
 
 .card {
   background-color: #fff;
-  max-width: 18em;
+  max-width: 25em;
   margin-top: 1em;
   padding: 1em;
   border-radius: 5px;
