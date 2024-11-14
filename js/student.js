@@ -119,7 +119,7 @@ teachers.forEach(teacher => {
                       <p class="card-text">Saya Adalah Guru ${teacher.subject}</p>
                       <p class="card-text"><small class="text-body-secondary">Last updated ${teacher.lastUpdated}</small></p>
                       <p class="card-text">Jadwal Tersedia: ${teacher.schedule}</p>
-                      <button class="btn btn-primary mt-2">Pesan Guru</button>
+                      <button class="btn mt-2 btn-custom">Add to Cart</button>
                   </div>
               </div>
           </div>

@@ -8,6 +8,7 @@
 <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="css/student.css">
 </head>
+
 <body>
 
 
@@ -61,25 +62,26 @@
     </div>
 </nav>
 
-<h1 style="padding-left: 15%;">Temukan Guru OSN Pilihanmu</h1>
+
+  
+<h1 class="poppins-langganan" style="text-align: center;">Berlangganan <span style="color: #F48C06;">Produk</span> <br>EduTeach</h1>
 <section class="menu">
-  <div class="menu-item">
-    <p>Domisili</p>
-  </div>
-  <div class="menu-item">
-    <p>Harga</p>
-  </div>
-  <div class="menu-item">
-    <p>Bahasa</p>
-  </div>
-  <div class="menu-item">
-    <p>Waktu</p> 
-  </div>
+    <div class="rounded-pill text-white custom-pill">
+      Domisili</div>
+    <div class="rounded-pill text-white custom-pill">
+      Harga</div>
+    <div class="rounded-pill text-white custom-pill">
+      Bahasa</div>
+    </div>
+    <div class="rounded-pill text-white custom-pill">
+      Metode</div>
+    </div>
 </section>
 
+
 <div class="container">
-  <aside class="aside">
-      <h2>Pilih Mata Pelajaran</h2>
+  <aside class="aside" style="background-color: #FFF3E4;">
+      <h2 class="poppins-mapel">Pilih Mata Pelajaran</h2>
       <label class="filter-item"onclick="filterContent('All')">
         <input type="radio" name="filter" value="official-store">
         <span>All</span>
@@ -105,12 +107,14 @@
         <span>Matematika</span>
       </label>
   </aside>
-  <div class="main-content" style="max-height: 600px; overflow-y: auto;">
-    <div id="teacher-list" ></div>
+  <div class="main-content" style="max-height: 600px; overflow-y: auto; background-color: #2F327D;">
+    <div id="teacher-list" style="background-color: #2F327D;"></div>
   </div>
 </div>
+
 <br>
-<h1 style="padding: 3%; text-align: center;">Student Success Stories</h1>
+
+<h1 class="poppins-langganan" style="padding: 3%; text-align: center;">Student <span style="color: #F48C06;">Success</span> Stories</h1>
 <div id="studentStoriesCarousel" class="carousel slide" data-bs-ride="carousel">
   <!-- Carousel Inner -->
   <div class="carousel-inner">
@@ -187,6 +191,32 @@
     </button>
   </div>
 </div>
+
+<br>
+
+<div class="p-5 mb-4 mt-5 rounded-3 custom-iklan" style="background-color: #FFBD73">
+  <div class="container-fluid py-5">
+    <div class="row align-items-center">
+      <!-- Kolom Kiri (Teks dan Button) -->
+      <div class="col-md-6">
+        <h1 class="poppins-mulai">Mulai belajar bersama kami <br> untuk raih prestasi terbaikmu</h1>
+        <p class=" poppins-apakah">Apakah kamu siap menjadi juara OSN dan meraih prestasi nasional?
+          <br>Yuk, gabung bersama kami dan persiapkan dirimu sebaik mungkin!</p>
+        <button class="btn btn-lg btn-daftar" type="button">Daftar Sekarang</button>
+        <button class="btn btn-lg ms-2" type="button">Lihat Paket Belajar</button>
+      </div>
+
+      <div class="posisi-gambar">
+        <img src="img/vector.png" alt="Deskripsi Gambar" class="img-fluid rounded">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
 <footer>
   <div class="footer-container">
     <div class="footer-logo">
