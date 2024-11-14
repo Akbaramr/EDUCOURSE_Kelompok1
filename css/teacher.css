@@ -217,8 +217,6 @@ footer {
   }
 }
 
-
-/* buttons filter training*/
 .training {
   margin-top: 5em;
 }
@@ -300,8 +298,6 @@ img {
     grid-column-gap: 1em;
   }
 }
-
-/* reviews */
 
 a {
   text-decoration: none;
