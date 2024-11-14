@@ -68,6 +68,7 @@
   border-radius: 80px;
   border-color: #2F327D;
   color: #ffffff; 
+  font-family: "Poppins", sans-serif;
 }
 
 .btn-daftar:hover {
@@ -75,10 +76,23 @@
   background-color: #4a4c8a; /* Warna saat di-hover */
 }
 
+.btn-lihat {
+  width: 162px;
+  height: 38px;
+  border: 2px solid #2F327D;
+  background-color: transparent;
+  font-size: 14px;
+  color: #2F327D; /* Warna teks biru */
+  border-radius: 80px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;;
+  
+}
 
-
-
-
+.btn-lihat:hover {
+  color: #ffffff;
+  border: 2px solid #2F327D;
+}
 
 .custom-pill {
   background-color: #F48C06;
@@ -102,8 +116,6 @@
   transform: translateY(-3px); /* Sedikit mengangkat */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Bayangan lebih besar */
 }
-
-
 
 
 
