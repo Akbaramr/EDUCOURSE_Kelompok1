@@ -217,8 +217,6 @@ footer {
   }
 }
 
-
-/* buttons filter training*/
 .training {
   margin-top: 5em;
 }
@@ -228,16 +226,16 @@ footer {
 }
 
 .button-value {
-  border: 2px solid #6a72ff;
+  border: 2px solid #F48C06;
   padding: 1em 2.2em;
   border-radius: 3em;
   background-color: transparent;
-  color: #6a72ff;
+  color: #F48C06;
   cursor: pointer;
 } 
 
 .active {
-  background-color: #6a72ff;
+  background-color: #F48C06;
   color: #fff;
 }
 
@@ -300,8 +298,6 @@ img {
     grid-column-gap: 1em;
   }
 }
-
-/* reviews */
 
 a {
   text-decoration: none;
@@ -438,4 +434,48 @@ a {
 ::selection {
   color: #000000;
   background-color: #ffd398;
+}
+
+.welcome-banner {
+  background-color: #F48C06;
+  padding: 20px;
+  color: #fff;
+  border-radius: 30px;
+  margin-bottom: 80px;
+  margin-top: 50px;
+  width: 165%;
+  animation: fadeIn 1s ease-in;
+}
+
+.schedule-cardds {
+  display: flex;
+  width: 200%;
+  gap: 22px;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+.cardd {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  background-color: #fff;
+  width: 180px;
+}
+
+.cardd-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardd-content span {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.cardd-content small {
+  font-size: 14px;
+  color: #777;
 }
