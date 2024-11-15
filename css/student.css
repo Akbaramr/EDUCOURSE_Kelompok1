@@ -53,10 +53,10 @@
   overflow: hidden;
   width: 1267px;
   height: 400px;
-  margin: auto; /* Menempatkan di tengah */
-  padding-top: 90px; /* Mengatur padding */
-  border: 2px solid #dee2e6; /* Menambahkan border */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan bayangan */
+  margin: auto; 
+  padding-top: 90px; 
+  border: 2px solid #dee2e6; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .btn-daftar {
@@ -73,7 +73,7 @@
 
 .btn-daftar:hover {
   color: #ffffff;
-  background-color: #4a4c8a; /* Warna saat di-hover */
+  background-color: #4a4c8a; 
 }
 
 .btn-lihat {
@@ -82,7 +82,7 @@
   border: 2px solid #2F327D;
   background-color: transparent;
   font-size: 14px;
-  color: #2F327D; /* Warna teks biru */
+  color: #2F327D; 
   border-radius: 80px;
   font-weight: bold;
   font-family: "Poppins", sans-serif;;
@@ -105,16 +105,16 @@
   justify-content: center;
   align-items: center; 
   font-size: 16px;
-  color: #fff; /* Warna teks */
-  border-radius: 30px; /* Sudut lebih membulat */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
-  transition: transform 0.3s, box-shadow 0.3s; /* Transisi */
+  color: #fff; 
+  border-radius: 30px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s, box-shadow 0.3s; 
 }
 
 .custom-pill:hover {
-  background: linear-gradient(90deg, #F48C06, #FFA726); /* Gradien saat hover */
-  transform: translateY(-3px); /* Sedikit mengangkat */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Bayangan lebih besar */
+  background: linear-gradient(90deg, #F48C06, #FFA726); 
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 
